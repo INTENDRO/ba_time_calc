@@ -87,31 +87,31 @@ def parse_raw_to_csv(filepath, csv_filepath):
 def get_time_sets(csv_filepath):
 
 	# global stats (e.g total, average, etcs)
-	time_stats = {"total_time": 0}
+	time_stats_dict = {"total_time": 0}
 
 	# get the time for every day
-	day_time_dict = collections.OrderedDict()
+	day_time_dict = {}
 
 	# get the time for every week
-	week_time_dict = collections.OrderedDict()
+	week_time_dict = {}
 
 	# get the time for every subject
-	subject_time_dict = collections.OrderedDict()
+	subject_time_dict = {}
 
 	# get the time for every weekday 
-	weekday_time_dict = collections.OrderedDict() # 1: Monday ... 7: Sunday
+	weekday_time_dict = {} # 1: Monday ... 7: Sunday
 
 	# get each individual times for all the different weekday. this is needed for the weekday average
-	weekday_detailed_time_dict = collections.OrderedDict()
+	weekday_detailed_time_dict = {}
 
 	# get the average time for every weekday
-	weekday_avg_time_dict = collections.OrderedDict() # 1: Monday ... 7: Sunday
+	# weekday_avg_time_dict = {} # 1: Monday ... 7: Sunday
 
 	# get the individual quality and length of work blocks for every weekday
-	weekday_detailed_quality_dict = collections.OrderedDict()
+	weekday_detailed_quality_dict = {}
 
 	# get the average work quality for every weekday
-	weekday_avg_quality_dict = collections.OrderedDict() # 1: Monday ... 7: Sunday
+	# weekday_avg_quality_dict = {} # 1: Monday ... 7: Sunday
 
 
 	with open(csv_filepath,"r",newline="") as f:
@@ -127,7 +127,7 @@ def get_time_sets(csv_filepath):
 
 			time_delta = stop_minutes - start_minutes
 
-			time_stats["total_time"] += time_delta # in minutes
+			time_stats_dict["total_time"] += time_delta # in minutes
 
 
 			try:
@@ -166,34 +166,56 @@ def get_time_sets(csv_filepath):
 				weekday_detailed_quality_dict[weekday] = []
 				weekday_detailed_quality_dict[weekday].append((time_delta, work_quality))
 
+	# generate matching OrderedDicts
+	key_order = sorted(day_time_dict.keys())
+	day_time_orddict = collections.OrderedDict((k, day_time_dict[k]) for k in key_order)
+
+	key_order = sorted(week_time_dict.keys())
+	week_time_orddict = collections.OrderedDict((k, week_time_dict[k]) for k in key_order)
+
+	key_order = sorted(subject_time_dict.keys())
+	subject_time_orddict = collections.OrderedDict((k, subject_time_dict[k]) for k in key_order)
+
+	key_order = sorted(weekday_time_dict.keys())
+	weekday_time_orddict = collections.OrderedDict((k, weekday_time_dict[k]) for k in key_order)
+
+	key_order = sorted(weekday_detailed_time_dict.keys())
+	weekday_detailed_time_orddict = collections.OrderedDict((k, weekday_detailed_time_dict[k]) for k in key_order)
+	
+	key_order = sorted(weekday_detailed_quality_dict.keys())
+	weekday_detailed_quality_orddict = collections.OrderedDict((k, weekday_detailed_quality_dict[k]) for k in key_order)
 	
 
 
-	time_stats["longest_week_time"] = max(list(week_time_dict.values()))
-	time_stats["longest_day_time"] = max(list(day_time_dict.values()))
+
+
+	time_stats_dict["longest_week_time"] = max(list(week_time_orddict.values()))
+	time_stats_dict["longest_day_time"] = max(list(day_time_orddict.values()))
 	# check the next two calculations!
-	# time_stats["average_week_time"] = round(statistics.mean(list(week_time_dict.values())))
-	temp = list(week_time_dict.values())
-	time_stats["average_week_time"] = round(sum(temp) / len(temp))
-	# time_stats["average_week_time_wo_current"] = round(statistics.mean(list(week_time_dict.values())[:-1]))
-	temp = list(week_time_dict.values())[:-1]
-	time_stats["average_week_time_wo_current"] = round(sum(temp) / len(temp))
+	time_stats_dict["average_week_time"] = round(statistics.mean(list(week_time_orddict.values())))
+	# temp = list(week_time_orddict.values())
+	# time_stats_dict["average_week_time"] = round(sum(temp) / len(temp))
+	time_stats_dict["average_week_time_wo_current"] = round(statistics.mean(list(week_time_orddict.values())[:-1]))
+	# temp = list(week_time_orddict.values())[:-1]
+	# time_stats_dict["average_week_time_wo_current"] = round(sum(temp) / len(temp))
 
-	time_stats["total_weekcount"] = list(week_time_dict.keys())[-1] - list(week_time_dict.keys())[0] + 1
+	time_stats_dict["total_weekcount"] = list(week_time_orddict.keys())[-1] - list(week_time_orddict.keys())[0] + 1
 
-	for key,val in weekday_detailed_time_dict.items():
-		weekday_avg_time_dict[key] = sum(val)/time_stats["total_weekcount"]
+	weekday_avg_time_orddict = collections.OrderedDict()
+	for key,val in weekday_detailed_time_orddict.items():
+		weekday_avg_time_orddict[key] = sum(val)/time_stats_dict["total_weekcount"]
 
-	for key,val in weekday_detailed_quality_dict.items():
+	weekday_avg_quality_orddict = collections.OrderedDict()
+	for key,val in weekday_detailed_quality_orddict.items():
 		weighted_sum = 0
 		total_time = 0
 		for time,quality in val:
 			total_time += time
 			weighted_sum += time*quality
 
-		weekday_avg_quality_dict[key] = weighted_sum / total_time
+		weekday_avg_quality_orddict[key] = weighted_sum / total_time
 
-	return (time_stats, day_time_dict, week_time_dict, subject_time_dict, weekday_time_dict, weekday_detailed_time_dict, weekday_avg_time_dict, weekday_detailed_quality_dict, weekday_avg_quality_dict)
+	return (time_stats_dict, day_time_orddict, week_time_orddict, subject_time_orddict, weekday_time_orddict, weekday_detailed_time_orddict, weekday_avg_time_orddict, weekday_detailed_quality_orddict, weekday_avg_quality_orddict)
 
 def display_day_time(day_time_dict):
 	day_time_day_list = []
