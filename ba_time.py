@@ -126,6 +126,8 @@ def get_time_sets(csv_filepath):
 			subject = line[8]
 
 			time_delta = stop_minutes - start_minutes
+			if time_delta < 0:
+				time_delta += 24*60
 
 			time_stats_dict["total_time"] += time_delta # in minutes
 
