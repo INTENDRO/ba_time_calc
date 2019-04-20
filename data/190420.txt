@@ -1,0 +1,303 @@
+11.02.2019
+08.00 - 09.15 2 Besprechung
+09.15 - 11.45 2 Zephyr
+13.00 - 14.00 2 Dokumentation
+14.00 - 15.35 2 Zephyr
+
+12.02.2019
+10.30 - 11.10 3 Mesh Topologie
+11.10 - 12.05 2 Zephyr
+13.30 - 14.50 1 Zephyr
+15.05 - 16.30 2 Zephyr
+16.30 - 17.45 2 Besprechung
+17.45 - 18.30 2 Zephyr
+20.00 - 22.30 3 Zephyr
+
+13.02.2019
+08.15 - 11.45 2 Zephyr
+12.30 - 15.30 2 Zephyr
+
+14.02.2019
+09.50 - 11.45 2 Reliable Message
+13.00 - 17.55 2 Reliable Message
+20.30 - 21.20 3 Reliable Message
+
+15.02.2019
+09.35 - 11.40 3 Zephyr
+20.55 - 21.45 3 Zephyr
+
+16.02.2019
+10.40 - 11.50 2 Reliable Message
+16.30 - 18.40 3 Reliable Message
+
+17.02.2019
+08.40 - 11.45 3 Reliable Message
+
+18.02.2019
+10.00 - 10.40 2 Team
+10.40 - 11.05 2 String Model
+14.30 - 17.50 2 String Model
+
+19.02.2019
+08.20 - 11.30 2 Reliable Message
+12.40 - 13.50 2 Reliable Message
+15.45 - 17.40 1 Reliable Message
+
+20.02.2019
+09.00 - 10.50 2 Besprechung
+14.15 - 15.30 2 Team
+15.45 - 17.15 2 Reliable Message
+
+21.02.2019
+08.15 - 12.05 2 Reliable Message
+13.30 - 15.00 1 Reliable Message
+15.00 - 15.40 2 Reliable Message
+15.40 - 16.30 2 Team
+16.30 - 16.50 2 Reliable Message
+16.50 - 17.15 3 Team
+17.15 - 17.40 2 Zephyr
+
+22.02.2019
+13.45 - 16.10 2 LEDCity
+
+23.02.2019
+08.25 - 09.20 2 Konzept
+
+25.02.2019
+09.50 - 11.35 2 Zephyr
+13.45 - 14.30 2 Zephyr
+15.00 - 16.35 1 Zephyr
+
+26.02.2019
+08.20 - 09.45 1 Team
+09.45 - 11.10 2 Serial
+16.20 - 16.35 1 Serial
+16.35 - 18.20 3 Serial
+20.45 - 21.20 3 Serial
+
+02.03.2019
+16.40 - 18.35 1 Zephyr
+
+03.03.2019
+10.20 - 10.55 2 Zephyr
+10.55 - 11.50 2 Zephyr
+13.45 - 14.35 2 Zephyr
+14.35 - 15.10 2 Reliable Message
+16.40 - 18.05 2 Reliable Message
+
+04.03.2019
+09.50 - 11.00 3 Zephyr
+14.05 - 17.45 2 Reliable Message
+
+05.03.2019
+08.30 - 10.55 2 Testing
+15.50 - 17.35 2 Dokumentation
+17.35 - 17.50 3 Serial
+
+06.03.2019
+08.15 - 10.00 1 Serial
+10.00 - 10.50 3 Besprechung
+14.10 - 15.40 2 Zephyr
+15.40 - 16.40 1 Serial
+16.40 - 17.40 3 Serial
+
+07.03.2019
+08.30 - 09.00 2 Team
+09.00 - 11.45 3 Reliable Message
+12.45 - 13.30 1 Reliable Message
+13.30 - 14.45 3 Reliable Message
+14.55 - 16.15 1 Serial
+16.15 - 18.00 3 Serial
+21.00 - 22.35 2 Serial
+
+08.03.2019
+13.45 - 16.30 1 LEDCity
+
+09.03.2019
+10.00 - 11.00 2 Serial
+11.20 - 12.15 3 Serial
+14.00 - 16.40 3 Serial
+
+10.03.2019
+09.30 - 10.05 1 Serial
+10.05 - 11.20 2 Serial
+11.20 - 11.50 3 Serial
+13.35 - 14.45 2 Serial
+20.15 - 21.30 2 Serial
+21.40 - 22.25 2 Serial
+
+11.03.2019
+08.30 - 09.30 2 Serial
+09.45 - 10.55 3 Serial
+10.55 - 13.45 2 Serial
+15.45 - 16.15 2 Serial
+16.30 - 18.00 2 Serial
+
+12.03.2019
+08.15 - 10.05 2 Serial
+10.20 - 11.00 2 Serial
+15.50 - 18.10 3 SUP
+19.20 - 20.20 1 SUP
+
+13.03.2019
+08.05 - 08.15 2 SUP
+08.45 - 09.55 3 SUP
+09.55 - 10.40 3 Besprechung
+
+14.03.2019
+08.00 - 11.20 2 SUP
+13.40 - 14.45 2 SUP
+14.45 - 15.05 2 Reliable Message
+15.05 - 16.25 1 Dokumentation
+16.25 - 17.40 1 Dokumentation
+
+17.03.2019
+13.30 - 16.00 1 Dokumentation
+
+18.03.2019
+10.05 - 11.20 2 Dokumentation
+14.20 - 16.30 3 KNX
+
+19.03.2019
+08.05 - 08.20 1 Dokumentation
+08.35 - 09.55 2 Dokumentation
+10.05 - 11.05 2 Team
+15.45 - 18.30 3 Topologie
+
+20.03.2019
+09.10 - 09.55 2 Topologie
+09.55 - 11.10 2 Besprechung
+14.10 - 16.30 3 LEDCity
+16.30 - 17.05 2 Topologie
+17.05 - 17.30 2 LEDCity
+
+21.03.2019
+08.15 - 08.45 2 Dokumentation
+08.45 - 09.55 2 LEDCity
+10.15 - 11.20 2 LEDCity
+13.30 - 19.00 3 LEDCity
+
+22.03.2019
+13.40 - 15.10 3 LEDCity
+
+23.03.2019
+09.40 - 12.45 2 SUP
+14.10 - 15.55 2 SUP
+
+24.03.2019
+10.45 - 11.55 2 SUP
+16.45 - 18.30 1 SUP
+19.30 - 20.10 2 SUP
+
+25.03.2019
+10.30 - 11.05 2 Serial
+14.25 - 15.35 2 Serial
+16.05 - 17.40 2 Serial
+
+26.03.2019
+09.00 - 10.30 2 Serial
+10.30 - 11.10 1 Serial
+16.30 - 18.00 3 Serial
+21.10 - 23.05 2 Serial
+
+27.03.2019
+08.10 - 08.50 2 Team
+09.00 - 09.55 1 Serial
+09.55 - 10.40 2 Besprechung
+
+28.03.2019
+09.20 - 10.45 2 Team
+10.45 - 11.00 2 Serial
+12.45 - 16.15 3 Serial
+16.15 - 17.10 1 Gateway Node C
+19.40 - 20.30 2 Gateway Node C
+
+01.04.2019
+10.00 - 11.25 2 Gateway Node C
+16.45 - 17.55 2 Serial
+19.45 - 21.00 2 Gateway Node C
+
+02.04.2019
+20.15 - 22.40 2 Gateway Node C
+
+03.04.2019
+09.55 - 11.10 2 Besprechung
+15.05 - 15.45 2 Dokumentation
+20.35 - 23.00 3 Gateway Node C
+
+04.04.2019
+09.30 - 10.30 2 Gateway Node C
+10.30 - 11.30 1 Gateway Node C
+11.30 - 12.20 2 Gateway Node C
+13.30 - 15.40 3 Gateway Node C
+15.50 - 16.05 2 LEDCity
+
+05.04.2019
+21.45 - 00.15 2 Gateway Node C
+
+06.04.2019
+10.45 - 12.05 2 Gateway Node C
+13.45 - 16.25 2 Gateway Node C
+17.50 - 18.40 2 Gateway Node C
+
+07.04.2019
+13.30 - 16.20 2 Gateway Node C
+20.40 - 22.45 2 Gateway Node C
+
+08.04.2019
+09.40 - 11.20 1 Gateway Node C
+14.00 - 16.00 2 Gateway Node C
+16.30 - 17.40 2 Gateway Node C
+
+09.04.2019
+08.20 - 09.20 2 Gateway Node C
+09.20 - 11.10 3 Gateway Node C
+15.40 - 16.10 2 Gateway Node C
+
+11.04.2019
+08.10 - 09.15 2 Gateway Node C
+09.45 - 10.20 1 Gateway Node Python
+10.20 - 11.10 2 Gateway Node Python
+12.50 - 14.20 2 Gateway Node Python
+14.20 - 16.50 3 Gateway Node Python
+16.50 - 17.35 2 Gateway Node Python
+
+13.04.2019
+14.00 - 16.40 2 Gateway Node Python
+16.50 - 18.05 1 Gateway Node Python
+19.00 - 19.45 2 Gateway Node Python
+
+15.04.2019
+15.20 - 15.40 2 KNX
+15.50 - 17.30 3 Gateway Node Python
+20.55 - 22.20 2 Dokumentation
+
+16.04.2019
+08.25 - 08.35 2 Dokumentation
+08.35 - 09.40 2 Gateway Node Python
+10.15 - 11.15 2 Gateway Node Python
+12.45 - 13.15 2 Gateway Node Python
+16.20 - 18.05 3 Gateway Node Python
+
+17.04.2019
+08.25 - 09.10 2 Gateway Node Python
+09.10 - 10.00 1 Gateway Node Python
+10.00 - 11.15 2 Gateway Node Python
+
+18.04.2019
+09.10 - 10.20 2 Gateway Node Python
+10.20 - 12.05 3 Gateway Node Python
+13.30 - 15.00 2 Gateway Node Python
+15.30 - 17.15 2 Gateway Node Python
+
+19.04.2019
+08.10 - 09.50 2 Gateway Node Python
+09.50 - 11.40 2 Topologie
+11.50 - 13.05 3 Topologie
+13.50 - 15.35 3 Gateway Node Python
+
+20.04.2019
+09.30 - 10.40 2 Gateway Node Python
+10.40 - 13.40 3 Gateway Node Python
+
+
