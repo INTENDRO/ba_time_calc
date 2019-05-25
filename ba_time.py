@@ -53,6 +53,10 @@ def get_filepaths(home_dir, cli_args):
 
 	return (filepath, csv_filepath)
 
+def get_data_flags(filepath):
+	pass
+
+
 def parse_raw_to_csv(filepath, csv_filepath):
 	current_day = None
 
@@ -264,18 +268,18 @@ def display_subject_time(subject_time_dict):
 	locks,labels = plt.xticks()
 	plt.xticks(locks,labels,rotation=20)
 
-def display_weekday_time(weekday_time_dict):
-	weekday_time_list = [0]*7
+# def display_weekday_time(weekday_time_dict):
+# 	weekday_time_list = [0]*7
 
-	for key,val in weekday_time_dict.items():
-		weekday_time_list[key-1] = (val/60)
+# 	for key,val in weekday_time_dict.items():
+# 		weekday_time_list[key-1] = (val/60)
 
-	fig,ax = plt.subplots()
-	# ax.bar(day_time_day_list,day_time_time_list)
-	ax = sns.barplot(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],weekday_time_list,ax=ax,palette="Blues_d")
-	# locks,labels = plt.xticks()
-	# plt.xticks(locks,labels,rotation=20)
-	ax.set(xlabel="Wochentag",ylabel="Arbeitsstunden")
+# 	fig,ax = plt.subplots()
+# 	# ax.bar(day_time_day_list,day_time_time_list)
+# 	ax = sns.barplot(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],weekday_time_list,ax=ax,palette="Blues_d")
+# 	# locks,labels = plt.xticks()
+# 	# plt.xticks(locks,labels,rotation=20)
+# 	ax.set(xlabel="Wochentag",ylabel="Arbeitsstunden")
 
 def display_weekday_avg_time(weekday_avg_time_dict):
 	weekday_time_list = [0]*7
@@ -311,14 +315,28 @@ def main():
 
 	config_sns()
 
+
+
 	filepath, csv_filepath = get_filepaths(home_dir, cli_args)
 
 	print(filepath)
 	print(csv_filepath)
 
+	ignored_avg_weeks = get_data_flags(filepath)
+
 	parse_raw_to_csv(filepath, csv_filepath)
 
-	time_stats, day_time_dict, week_time_dict, subject_time_dict, weekday_time_dict, weekday_detailed_time_dict, weekday_avg_time_dict, weekday_detailed_quality_dict, weekday_avg_quality_dict = get_time_sets(csv_filepath)
+	(
+	time_stats,
+	day_time_dict,
+	week_time_dict,
+	subject_time_dict,
+	weekday_time_dict,
+	weekday_detailed_time_dict,
+	weekday_avg_time_dict,
+	weekday_detailed_quality_dict,
+	weekday_avg_quality_dict
+	) = get_time_sets(csv_filepath)
 
 	print("Total time: {}min <-> {}hr {}min".format(time_stats["total_time"],time_stats["total_time"]//60,time_stats["total_time"]%60))
 	print("Longest day: {}min <-> {}hr {}min".format(time_stats["longest_day_time"],time_stats["longest_day_time"]//60,time_stats["longest_day_time"]%60))
@@ -331,7 +349,7 @@ def main():
 	display_day_time(day_time_dict)
 	display_week_time(week_time_dict)
 	display_subject_time(subject_time_dict)
-	display_weekday_time(weekday_time_dict)
+	# display_weekday_time(weekday_time_dict)
 	display_weekday_avg_time(weekday_avg_time_dict)
 	display_weekday_avg_quality(weekday_avg_quality_dict)
 	plt.show()
