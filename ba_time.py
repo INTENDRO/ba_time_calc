@@ -16,6 +16,7 @@ import argparse
 # REGEX
 ############################################################################
 
+re_pat_ign_avg_weeks = re.compile(r"(?<=ignored avg weeks:)(?:\s*\d+\s*,\s*)*(?:\s*\d+\s*)*$")
 re_pat_date = re.compile(r"(\d{2})\.(\d{2})\.(\d{4})")
 re_pat_time = re.compile(r"(\d{1,2})[\.:](\d{1,2})\s*-\s*(\d{1,2})[\.:](\d{1,2})\s(\d)\s(.*)")
 
@@ -53,12 +54,9 @@ def get_filepaths(home_dir, cli_args):
 
 	return (filepath, csv_filepath)
 
-def get_data_flags(filepath):
-	pass
-
-
 def parse_raw_to_csv(filepath, csv_filepath):
 	current_day = None
+	ignored_avg_weeks = []
 
 	with open(filepath, "r") as readf, open(csv_filepath,"w",newline="") as writef:
 		csv_writer = csv.writer(writef)
@@ -85,10 +83,19 @@ def parse_raw_to_csv(filepath, csv_filepath):
 
 				continue
 
+			result = re_pat_ign_avg_weeks.search(line)
+			if result: #weeks ignored for average values
+				weeknums = result.group(0).split(",")
+				ignored_avg_weeks = [int(x.strip()) for x in weeknums if x.strip()]
+
+				continue
+
 			# could not parse line
 			print("Could not parse line {}: {}".format(idx+1,line),end="")
 
-def get_time_sets(csv_filepath):
+	return ignored_avg_weeks
+
+def get_time_sets(csv_filepath, ignored_avg_weeks):
 
 	# global stats (e.g total, average, etcs)
 	time_stats_dict = {"total_time": 0}
@@ -105,8 +112,11 @@ def get_time_sets(csv_filepath):
 	# get the time for every weekday 
 	weekday_time_dict = {} # 1: Monday ... 7: Sunday
 
-	# get each individual times for all the different weekday. this is needed for the weekday average
+	# get each individual times for all the different weekdays. this is needed for the weekday average
 	weekday_detailed_time_dict = {}
+
+	# get each individual times for all the different weekdays (ignoring flagged weeks). this is needed for the weekday average
+	weekday_detailed_time_ignored_dict = {}
 
 	# get the average time for every weekday
 	# weekday_avg_time_dict = {} # 1: Monday ... 7: Sunday
@@ -166,6 +176,13 @@ def get_time_sets(csv_filepath):
 				weekday_detailed_time_dict[weekday] = []
 				weekday_detailed_time_dict[weekday].append(time_delta)
 
+			if weeknumber not in ignored_avg_weeks:
+				try:
+					weekday_detailed_time_ignored_dict[weekday].append(time_delta) # accumulate all detailed times and later devide by week count
+				except KeyError: # new weekday
+					weekday_detailed_time_ignored_dict[weekday] = []
+					weekday_detailed_time_ignored_dict[weekday].append(time_delta)
+
 			try:
 				weekday_detailed_quality_dict[weekday].append((time_delta, work_quality))
 			except KeyError: # new weekday
@@ -179,6 +196,9 @@ def get_time_sets(csv_filepath):
 	key_order = sorted(week_time_dict.keys())
 	week_time_orddict = collections.OrderedDict((k, week_time_dict[k]) for k in key_order)
 
+	key_order = sorted(week_time_dict.keys())
+	week_time_ignored_orddict = collections.OrderedDict((k, week_time_dict[k]) for k in key_order if k not in ignored_avg_weeks)
+
 	key_order = sorted(subject_time_dict.keys())
 	subject_time_orddict = collections.OrderedDict((k, subject_time_dict[k]) for k in key_order)
 
@@ -187,29 +207,32 @@ def get_time_sets(csv_filepath):
 
 	key_order = sorted(weekday_detailed_time_dict.keys())
 	weekday_detailed_time_orddict = collections.OrderedDict((k, weekday_detailed_time_dict[k]) for k in key_order)
+
+	key_order = sorted(weekday_detailed_time_ignored_dict.keys())
+	weekday_detailed_time_ignored_orddict = collections.OrderedDict((k, weekday_detailed_time_ignored_dict[k]) for k in key_order)
 	
 	key_order = sorted(weekday_detailed_quality_dict.keys())
 	weekday_detailed_quality_orddict = collections.OrderedDict((k, weekday_detailed_quality_dict[k]) for k in key_order)
-	
-
-
 
 
 	time_stats_dict["longest_week_time"] = max(list(week_time_orddict.values()))
 	time_stats_dict["longest_day_time"] = max(list(day_time_orddict.values()))
-	# check the next two calculations!
 	time_stats_dict["average_week_time"] = round(statistics.mean(list(week_time_orddict.values())))
-	# temp = list(week_time_orddict.values())
-	# time_stats_dict["average_week_time"] = round(sum(temp) / len(temp))
+	time_stats_dict["average_week_time_ignored"] = round(statistics.mean(list(week_time_ignored_orddict.values())))
 	time_stats_dict["average_week_time_wo_current"] = round(statistics.mean(list(week_time_orddict.values())[:-1]))
-	# temp = list(week_time_orddict.values())[:-1]
-	# time_stats_dict["average_week_time_wo_current"] = round(sum(temp) / len(temp))
+	time_stats_dict["average_week_time_ignored_wo_current"] = round(statistics.mean(list(week_time_ignored_orddict.values())[:-1]))
 
-	time_stats_dict["total_weekcount"] = list(week_time_orddict.keys())[-1] - list(week_time_orddict.keys())[0] + 1
+	time_stats_dict["total_weekcount"] = len(week_time_orddict.items())
+	time_stats_dict["total_weekcount_ignored"] = len(week_time_ignored_orddict.items())
+
 
 	weekday_avg_time_orddict = collections.OrderedDict()
 	for key,val in weekday_detailed_time_orddict.items():
 		weekday_avg_time_orddict[key] = sum(val)/time_stats_dict["total_weekcount"]
+
+	weekday_avg_time_ignored_orddict = collections.OrderedDict()
+	for key,val in weekday_detailed_time_ignored_orddict.items():
+		weekday_avg_time_ignored_orddict[key] = sum(val)/time_stats_dict["total_weekcount_ignored"]
 
 	weekday_avg_quality_orddict = collections.OrderedDict()
 	for key,val in weekday_detailed_quality_orddict.items():
@@ -221,7 +244,7 @@ def get_time_sets(csv_filepath):
 
 		weekday_avg_quality_orddict[key] = weighted_sum / total_time
 
-	return (time_stats_dict, day_time_orddict, week_time_orddict, subject_time_orddict, weekday_time_orddict, weekday_detailed_time_orddict, weekday_avg_time_orddict, weekday_detailed_quality_orddict, weekday_avg_quality_orddict)
+	return (time_stats_dict, day_time_orddict, week_time_orddict, subject_time_orddict, weekday_time_orddict, weekday_detailed_time_orddict, weekday_detailed_time_ignored_orddict, weekday_avg_time_orddict, weekday_avg_time_ignored_orddict, weekday_detailed_quality_orddict, weekday_avg_quality_orddict)
 
 def display_day_time(day_time_dict):
 	day_time_day_list = []
@@ -261,27 +284,13 @@ def display_subject_time(subject_time_dict):
 		subject_time_subject_list.append(key)
 		subject_time_time_list.append(val/60)
 
-
 	fig,ax = plt.subplots()
 	# ax.bar(day_time_day_list,day_time_time_list)
 	sns.barplot(subject_time_subject_list,subject_time_time_list,ax=ax,palette="Blues_d")
 	locks,labels = plt.xticks()
 	plt.xticks(locks,labels,rotation=20)
 
-# def display_weekday_time(weekday_time_dict):
-# 	weekday_time_list = [0]*7
-
-# 	for key,val in weekday_time_dict.items():
-# 		weekday_time_list[key-1] = (val/60)
-
-# 	fig,ax = plt.subplots()
-# 	# ax.bar(day_time_day_list,day_time_time_list)
-# 	ax = sns.barplot(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],weekday_time_list,ax=ax,palette="Blues_d")
-# 	# locks,labels = plt.xticks()
-# 	# plt.xticks(locks,labels,rotation=20)
-# 	ax.set(xlabel="Wochentag",ylabel="Arbeitsstunden")
-
-def display_weekday_avg_time(weekday_avg_time_dict):
+def display_weekday_avg_ignored_time(weekday_avg_time_dict):
 	weekday_time_list = [0]*7
 
 	for key,val in weekday_avg_time_dict.items():
@@ -322,36 +331,39 @@ def main():
 	print(filepath)
 	print(csv_filepath)
 
-	ignored_avg_weeks = get_data_flags(filepath)
 
-	parse_raw_to_csv(filepath, csv_filepath)
+	ignored_avg_weeks = parse_raw_to_csv(filepath, csv_filepath)
 
 	(
 	time_stats,
-	day_time_dict,
-	week_time_dict,
-	subject_time_dict,
+	day_time_orddict,
+	week_time_orddict,
+	subject_time_orddict,
 	weekday_time_dict,
 	weekday_detailed_time_dict,
-	weekday_avg_time_dict,
-	weekday_detailed_quality_dict,
-	weekday_avg_quality_dict
-	) = get_time_sets(csv_filepath)
+	weekday_detailed_time_ignored_orddict,
+	weekday_avg_time_orddict,
+	weekday_avg_time_ignored_orddict,
+	weekday_detailed_quality_orddict,
+	weekday_avg_quality_orddict
+	) = get_time_sets(csv_filepath, ignored_avg_weeks)
 
 	print("Total time: {}min <-> {}hr {}min".format(time_stats["total_time"],time_stats["total_time"]//60,time_stats["total_time"]%60))
 	print("Longest day: {}min <-> {}hr {}min".format(time_stats["longest_day_time"],time_stats["longest_day_time"]//60,time_stats["longest_day_time"]%60))
 	print("Longest week: {}min <-> {}hr {}min".format(time_stats["longest_week_time"],time_stats["longest_week_time"]//60,time_stats["longest_week_time"]%60))
 	print("Average week: {}min <-> {}hr {}min".format(time_stats["average_week_time"],time_stats["average_week_time"]//60,time_stats["average_week_time"]%60))
+	print("Average week (ignoring flagged weeks): {}min <-> {}hr {}min".format(time_stats["average_week_time_ignored"],time_stats["average_week_time_ignored"]//60,time_stats["average_week_time_ignored"]%60))
 	print("Average week (without current): {}min <-> {}hr {}min".format(time_stats["average_week_time_wo_current"],time_stats["average_week_time_wo_current"]//60,time_stats["average_week_time_wo_current"]%60))
+	print("Average week (ignoring flagged weeks and without current): {}min <-> {}hr {}min".format(time_stats["average_week_time_ignored_wo_current"],time_stats["average_week_time_ignored_wo_current"]//60,time_stats["average_week_time_ignored_wo_current"]%60))
 	print("Total week count: {}".format(time_stats["total_weekcount"]))
+	print("Total week count (ignoring flagged weeks): {}".format(time_stats["total_weekcount_ignored"]))
 
 
-	display_day_time(day_time_dict)
-	display_week_time(week_time_dict)
-	display_subject_time(subject_time_dict)
-	# display_weekday_time(weekday_time_dict)
-	display_weekday_avg_time(weekday_avg_time_dict)
-	display_weekday_avg_quality(weekday_avg_quality_dict)
+	display_day_time(day_time_orddict)
+	display_week_time(week_time_orddict)
+	display_subject_time(subject_time_orddict)
+	display_weekday_avg_ignored_time(weekday_avg_time_ignored_orddict)
+	display_weekday_avg_quality(weekday_avg_quality_orddict)
 	plt.show()
 	sys.exit(0)
 
