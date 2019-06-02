@@ -1,0 +1,295 @@
+ignored avg weeks: 21
+
+11.02.2019
+08.00 - 09.15 3 Besprechung
+09.15 - 11.45 2 Zephyr
+13.00 - 15.00 1 Logo
+15.00 - 17.15 3 Topologie
+17.30 - 18.05 3 Topologie
+19.00 - 20.45 3 Topologie
+20.45 - 21.10 3 Logo
+
+12.02.2019
+08.45 - 10.45 2 Topologie
+10.45 - 11.30 1 Logo
+12.30 - 14.50 1 Zephyr
+15.05 - 15.45 2 Reparieren Nrf Dk Board
+15.45 - 16.30 2 Zephyr
+16.30 - 17.45 2 Team
+17.45 - 18.15 3 KNX
+
+13.02.2019
+08.45 - 09.15 2 Zephyr
+09.15 - 12.00 2 KNX
+12.45 - 16.15 2 KNX
+17.40 - 17.55 3 KNX
+ 
+14.02.2019
+08.45 - 11.45 2 KNX
+12.50 - 17.15 2 KNX
+
+18.02.2019
+09.45 - 11.00 2 Besprechung
+14.15 - 17.00 2 Topologie
+17.30 - 18.00 3 KNX
+
+19.02.2019
+08.45 - 11.30 2 Zephyr
+12.40 - 13.55 1 Zephyr
+15.45 - 16.45 3 Team
+16.45 - 17.15 2 Topologie
+
+20.02.2019
+08.45 - 10.00 3 Besprechung
+10.00 - 11.00 1 Zephyr
+14.15 - 17.15 1 Zephyr
+
+21.02.2019
+08.45 - 12.05 3 Zephyr
+13.10 - 13.30 3 Topologie
+13.30 - 16.00 2 Zephyr
+16.00 - 16.30 2 Topologie
+16.30 - 17.45 3 Team
+
+22.02.2019
+13.45 - 16.10 2 LED City
+19.00 - 22.00 2 Topologie
+
+25.02.2019
+15.00 - 16.00 2 Low-Power
+
+26.02.2019
+08.50 - 11.05 2 Topologie
+
+04.03.2019
+09.50 - 11.00 2 Topologie
+14.05 - 17.00 2 Topologie
+
+05.03.2019
+08.40 - 10.55 2 Topologie
+15.50 - 17.45 2 Spezifikation
+
+06.03.2019
+08.40 - 10.00 3 Topologie
+10.00 - 11.00 2 Besprechung
+14.00 - 17.37 3 Topologie
+
+08.03.2019
+13.35 - 16.30 1 LED City
+
+09.03.2019
+12.00 - 13.15 2 Zephyr
+
+11.03.2019
+18.00 - 23.00 3 Topologie
+
+12.03.2019
+08.40 - 11.00 2 Topologie
+15.50 - 17.45 2 Topologie
+ 
+13.03.2019
+07.45 - 10.00 2 Dokumentation
+10.00 - 11.00 2 Besprechung
+
+16.03.2019
+15.00 - 18.10 2 Dokumentation
+
+17.03.2019
+14.00 - 16.15 2 Dokumentation
+
+18.03.2019
+09.45 - 11.15 2 KNX
+13.20 - 13.50 3 Logo
+13.50 - 18.20 3 KNX
+
+19.03.2019
+07.45 - 11.00 2 KNX
+15.45 - 18.15 3 Topologie
+18.35 - 18.45 2 Topologie
+
+20.03.2019
+08.40 - 10.00 2 Topologie
+10.00 - 11.00 2 Besprechung
+13.45 - 17.20 2 Topologie
+17.30 - 18.40 3 Topologie
+19.45 - 20.50 2 Topologie
+
+21.03.2019
+07.45 - 10.00 2 Topologie
+10.00 - 11.20 2 Zephyr
+13.15 - 17.20 1 KNX
+
+22.03.2019
+13.00 - 17.40 2 KNX
+
+25.03.2019
+09.45 - 11.00 2 KNX
+13.40 - 16.15 1 KNX
+
+26.03.2019
+07.40 - 10.55 2 KNX
+16.30 - 17.15 2 KNX
+17.35 - 18.10 2 KNX
+
+27.03.2019 
+07.45 - 10.00 2 KNX
+10.00 - 11.45 3 Besprechung
+
+28.03.2019
+07.45 - 11.00 2 Team
+14.30 - 17.15 1 Dokumentation
+
+01.04.2019
+09.45 - 11.25 3 Dokumentation
+14.15 - 15.50 3 Dokumentation
+16.30 - 17.15 1 Dokumentation
+
+02.04.2019
+07.45 - 08.05 2 Dokumentation
+08.05 - 11.15 3 Node
+12.05 - 13.55 2 Node
+15.45 - 17.00 2 Dokumentation
+
+03.04.2019
+07.45 - 10.00 2 Node
+10.00 - 11.15 2 Besprechung
+13.50 - 16.50 2 Node
+
+04.04.2019
+07.50 - 10.20 2 Node
+10.20 - 11.00 2 KNX
+11.00 - 11.45 1 Dokumentation
+
+08.04.2019
+09.40 - 11.20 2 Gateway
+14.15 - 17.20 2 Topologie
+
+09.04.2019
+07.45 - 11.15 2 Topologie
+
+10.04.2019
+07.45 - 10.00 2 Topologie
+10.00 - 11.20 2 Besprechung
+
+11.04.2019
+13.00 - 14.00 2 Gateway
+
+15.04.2019
+15.20 - 15.40 3 KNX
+15.40 - 17.20 3 Gateway
+
+16.04.2019
+08.35 - 12.00 2 Gateway
+15.45 - 17.20 2 Gateway
+
+17.04.2019
+08.35 - 11.00 2 KNX
+14.00 - 14.30 2 Node Sensor
+
+18.04.2019
+09.00 - 09.30 1 Node Sensor
+14.15 - 17.15 2 Node Sensor
+
+21.04.2019
+10.30 - 11.40 2 Zephyr
+22.50 - 23.35 2 Zephyr
+ 
+22.04.2019
+08.15 - 10.30 2 LED-City
+10.30 - 12.20 2 Zephyr
+13.00 - 17.15 2 Zephyr
+
+23.04.2019
+08.45 - 11.20 2 Node Sensor
+14.50 - 18.20 2 Node Sensor
+
+24.04.2019
+08.15 - 08.45 2 Zephyr
+09.10 - 10.00 2 Team
+10.00 - 11.10 2 Besprechung
+
+25.04.2019
+08.45 - 10.25 3 KNX
+10.25 - 11.25 2 LED Node
+13.30 - 15.15 2 LED Node
+15.15 - 17.15 2 KNX
+
+26.04.2019
+13.00 - 13.35 2 Team
+
+27.04.2019
+19.50 - 21.10 2 Node LED
+
+28.04.2019
+17.20 - 21.05 3 Node Remote
+21.30 - 22.10 3 Node LED
+
+29.04.2019
+09.50 - 11.10 2 Node LED
+14.00 - 16.30 2 Node Sensor
+16.30 - 17.15 1 Dokumentation
+
+30.04.2019
+07.45 - 09.00 3 Team
+09.00 - 11.20 2 Dokumentation
+12.30 - 14.00 2 Dokumentation
+16.00 - 17.15 1 Dokumentation
+
+01.05.2019
+15.15 - 18.15 3 Dokumentation
+
+03.05.2019
+13.00 - 17.05 2 LED City
+
+06.05.2019
+09.45 - 11.20 2 Internet
+13.30 - 17.50 1 Internet
+
+07.05.2019
+08.45 - 11.20 2 Internet
+15.50 - 17.50 2 KNX
+
+08.05.2019
+07.45 - 10.00 2 Team
+10.00 - 11.10 2 Besprechung
+
+09.05.2019
+15.00 - 15.45 2 Google Home Mini
+
+10.05.2019
+12.45 - 20.45 2 System Test
+
+12.05.2019
+17.00 - 18.30 3 Dokumentation
+19.30 - 21.30 3 Dokumentation
+
+13.05.2019
+16.20 - 17.10 2 Besprechung
+
+14.05.2019
+07.45 - 11.00 2 Dokumentation
+15.55 - 17.45 2 Dokumentation
+
+15.05.2019
+07.45 - 10.00 2 Team
+10.00 - 11.00 2 Besprechung
+14.00 - 17.20 2 Dokumentation
+
+16.05.2019
+07.45 - 11.00 2 Dokumentation
+13.00 - 17.20 2 Dokumentation
+
+17.05.2019
+13.30 - 16.00 2 Dokumentation
+
+19.05.2019
+16.50 - 18.30 2 Dokumentation
+
+20.05.2019
+07.45 - 11.10 2 Dokumentation
+15.00 - 17.20 2 Dokumentation
+
+21.05.2019
+07.45 - 11.00 2 Dokumentation
+16.00 - 17.20 2 Dokumentation
+ 
