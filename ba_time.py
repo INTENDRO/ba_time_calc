@@ -199,8 +199,7 @@ def get_time_sets(csv_filepath, ignored_avg_weeks):
 	key_order = sorted(week_time_dict.keys())
 	week_time_ignored_orddict = collections.OrderedDict((k, week_time_dict[k]) for k in key_order if k not in ignored_avg_weeks)
 
-	key_order = sorted(subject_time_dict.keys())
-	subject_time_orddict = collections.OrderedDict((k, subject_time_dict[k]) for k in key_order)
+	subject_time_orddict = collections.OrderedDict(sorted(subject_time_dict.items(), key=lambda t: t[1], reverse=True))
 
 	key_order = sorted(weekday_time_dict.keys())
 	weekday_time_orddict = collections.OrderedDict((k, weekday_time_dict[k]) for k in key_order)
