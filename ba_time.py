@@ -358,6 +358,8 @@ def main():
 	print("Total week count (ignoring flagged weeks): {}".format(time_stats["total_weekcount_ignored"]))
 
 
+	print(subject_time_orddict)
+
 	display_day_time(day_time_orddict)
 	display_week_time(week_time_orddict)
 	display_subject_time(subject_time_orddict)
