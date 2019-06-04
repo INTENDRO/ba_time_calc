@@ -1,0 +1,635 @@
+ignored avg weeks: 21
+
+06.06.2019
+08.00 - 12.00 2 Dokumentation
+
+05.06.2019
+08.00 - 12.00 2 Dokumentation
+13.00 - 17.00 2 Dokumentation
+
+04.06.2019
+08.00 - 12.00 2 Dokumentation
+13.00 - 17.00 2 Dokumentation
+
+03.06.2019
+07.25 - 07.50 2 Dokumentation
+08.00 - 11.55 2 Dokumentation
+12.20 - 16.00 2 Dokumentation
+16.20 - 18.30 2 Dokumentation
+18.40 - 19.10 2 Dokumentation
+19.45 - 20.00 2 Dokumentation
+
+02.06.2019
+08.00 - 11.35 2 Dokumentation
+21.00 - 22.00 2 Dokumentation
+
+01.06.2019
+15.45 - 16.00 2 Dokumentation
+16.30 - 16.50 2 Dokumentation
+17.00 - 18.05 2 Dokumentation
+19.25 - 20.00 2 Dokumentation
+20.55 - 23.05 2 Dokumentation
+23.15 - 24.00 2 Dokumentation
+
+31.05.2019
+07.20 - 07.50 2 Dokumentation
+08.00 - 12.10 2 Dokumentation
+12.50 - 15.40 2 Dokumentation
+16.10 - 17.30 2 Dokumentation
+17.40 - 18.10 2 Dokumentation
+20.10 - 20.25 2 Dokumentation
+
+30.05.2019
+07.25 - 07.50 2 Dokumentation
+08.00 - 12.00 2 Dokumentation
+12.35 - 16.45 2 Dokumentation
+16.55 - 18.00 2 Dokumentation
+18.00 - 18.45 3 Dokumentation
+18.45 - 19.00 2 Dokumentation
+19.10 - 19.35 2 Dokumentation
+20.05 - 23.20 2 Dokumentation
+
+29.05.2019 
+09.00 - 10.00 2 Dokumentation
+10.00 - 11.35 2 Dokumentation
+14.30 - 15.00 2 Dokumentation
+15.20 - 15.40 2 Besprechungen / Sitzungen
+15.45 - 16.30 2 Dokumentation
+17.45 - 18.35 2 Dokumentation
+
+28.05.2019
+07.55 - 08.10 2 Dokumentation
+09.05 - 09.25 2 Dokumentation
+09.35 - 11.40 2 Dokumentation
+12.30 - 13.10 2 Dokumentation
+13.10 - 14.30 2 Besprechungen / Sitzungen
+14.45 - 16.50 2 Dokumentation
+
+27.05.2019
+08.00 - 08.15 2 Dokumentation
+08.20 - 11.30 2 Dokumentation
+12.30 - 12.45 2 Dokumentation
+12.45 - 13.10 2 Besprechungen / Sitzungen
+13.10 - 15.50 3 Dokumentation
+16.10 - 18.00 2 Dokumentation
+18.10 - 18.35 2 Dokumentation
+18.45 - 19.05 2 Dokumentation
+21.05 - 21.35 2 Dokumentation
+
+26.05.2019
+18.00 - 18.55 2 Dokumentation
+22.05 - 22.45 2 Dokumentation
+
+25.05.2019
+22.00 - 22.30 2 Dokumentation
+
+21.05.2019
+08.00 - 11.20 2 Dokumentation
+11.40 - 11.50 2 Dokumentation
+13.55 - 15.35 2 Dokumentation
+15.45 - 17.30 2 Dokumentation
+17.40 - 18.05 2 Dokumentation
+18.15 - 18.30 2 Dokumentation
+
+20.05.2019
+07.30 - 07.50 2 Dokumentation
+08.25 - 09.30 2 Dokumentation
+09.40 - 11.55 2 Dokumentation
+14.20 - 17.30 2 Dokumentation
+
+19.05.2019
+18.30 - 18.45 2 Dokumentation
+19.35 - 20.40 2 Dokumentation
+21.10 - 21.30 2 Dokumentation
+
+18.05.2019
+09.25 - 10.30 2 Dokumentation
+11.35 - 12.20 2 Dokumentation
+15.30 - 15.45 2 Dokumentation
+
+17.05.2019
+07.55 - 08.15 2 Dokumentation
+08.35 - 09.40 2 Dokumentation
+11.00 - 11.15 2 Mesh-Nodes
+13.30 - 15.00 2 Dokumentation
+15.00 - 15.30 2 Mesh-Nodes
+15.30 - 17.00 2 Dokumentation
+17.15 - 17.40 2 Dokumentation
+
+16.05.2019
+07.00 - 07.25 2 Dokumentation
+07.55 - 08.15 2 Dokumentation
+08.30 - 09.30 2 Dokumentation
+09.30 - 10.00 2 Tests
+10.00 - 11.25 2 Dokumentation
+12.45 - 13.00 1 Dokumentation
+13.00 - 16.30 2 Dokumentation
+20.10 - 20.30 2 Dokumentation
+
+15.05.2019
+07.25 - 07.50 2 Dokumentation
+08.00 - 08.30 2 Dokumentation
+08.30 - 09.45 2 Tests
+09.45 - 10.00 2 Dokumentation
+10.00 - 11.00 2 Besprechungen / Sitzungen
+13.00 - 13.30 2 Dokumentation
+14.00 - 16.00 2 Mesh-Nodes
+16.00 - 17.00 2 Mesh-Nodes
+17.00 - 17.30 2 Dokumentation
+17.40 - 18.10 2 Dokumentation
+
+14.05.2019
+08.25 - 09.00 2 Dokumentation
+09.00 - 11.20 2 Tests
+15.55 - 16.30 2 Mesh-Nodes
+16.45 - 17.40 2 Besprechungen / Sitzungen
+17.40 - 19.00 2 Low-Power
+19.10 - 19.35 2 Dokumentation
+
+13.05.2019
+07.25 - 07.45 2 Dokumentation
+09.00 - 09.10 2 Dokumentation
+11.50 - 12.10 2 Dokumentation
+16.20 - 17.10 2 Besprechungen / Sitzungen
+17.40 - 17.55 2 Dokumentation
+19.20 - 19.50 2 Dokumentation
+
+12.05.2019
+14.00 - 15.15 2 Dokumentation
+16.05 - 18.00 2 Dokumentation
+21.10 - 21.40 2 Dokumentation
+
+11.05.2019
+07.05 - 07.15 2 Low-Power
+08.35 - 10.00 3 Dokumentation
+10.00 - 10.30 2 Dokumentation
+13.00 - 13.45 2 Dokumentation
+15.45 - 16.30 2 Dokumentation
+16.35 - 17.50 2 Dokumentation
+
+10.05.2019
+07.30 - 07.50 2 Mesh-Nodes
+12.40 - 13.00 2 Mesh-Nodes
+13.00 - 14.00 2 Mesh-Nodes
+14.00 - 14.45 2 Mesh-Nodes
+14.45 - 15.00 2 Mesh-Nodes
+15.00 - 16.30 2 Tests
+16.30 - 20.30 2 Tests
+20.35 - 21.05 2 Dokumentation
+
+09.05.2019
+18.15 - 18.25 2 Mesh-Nodes
+
+08.05.2019
+07.25 - 07.45 2 Dokumentation
+08.20 - 09.00 2 Besprechungen / Sitzungen
+09.00 - 09.15 2 Dokumentation
+09.15 - 10.00 2 Mesh-Nodes
+10.00 - 11.10 2 Besprechungen / Sitzungen
+15.00 - 16.00 2 Mesh-Nodes
+18.10 - 19.00 2 Mesh-Nodes
+19.00 - 19.20 2 Low-Power
+
+07.05.2019
+08.00 - 09.50 2 Tests
+09.50 - 10.20 2 Dokumentation
+11.00 - 11.25 2 Tests
+14.30 - 14.50 2 Dokumentation
+16.00 - 16.10 2 KNX
+16.10 - 17.00 2 Tests
+17.00 - 17.45 2 Topologie
+17.45 - 18.20 2 Dokumentation
+18.40 - 19.05 2 Mesh-Nodes
+21.10 - 22.15 2 Mesh-Nodes
+
+06.05.2019
+07.25 - 07.45 2 Dokumentation
+09.25 - 09.35 2 Dokumentation
+10.10 - 11.20 2 Mesh-Nodes
+13.00 - 16.00 2 Mesh-Nodes
+16.00 - 17.00 3 Mesh-Nodes
+17.00 - 18.00 2 Mesh-Nodes
+18.00 - 18.30 2 Mesh-Nodes
+18.50 - 18.55 2 Mesh-Nodes
+18.55 - 19.10 2 Dokumentation
+
+05.05.2019
+08.45 - 09.15 2 Dokumentation
+09.15 - 09.40 2 Mesh-Nodes
+09.40 - 09.55 2 Mesh-Nodes
+09.55 - 10.30 2 Dokumentation
+10.50 - 11.30 2 Dokumentation
+19.50 - 21.35 2 Dokumentation
+
+04.05.2019
+16.25 - 17.00 2 Mesh-Nodes
+17.00 - 17.15 2 Low-Power
+17.15 - 17.45 1 Dokumentation
+17.50 - 17.55 2 Besprechungen / Sitzungen
+21.10 - 22.15 2 Dokumentation
+
+03.05.2019
+08.00 - 08.20 2 Dokumentation
+12.20 - 16.05 2 Mesh-Nodes
+16.05 - 16.15 2 Mesh-Nodes
+
+02.05.2019
+07.10 - 07.20 2 Mesh-Nodes
+07.20 - 08.05 2 Dokumentation
+09.55 - 10.15 2 Dokumentation
+
+01.05.2019
+07.30 - 07.50 2 Dokumentation
+08.00 - 10.30 2 Tests
+10.30 - 11.30 2 Dokumentation
+11.30 - 12.10 2 Low-Power
+13.10 - 13.35 2 Low-Power
+13.35 - 13.45 2 Dokumentation
+13.45 - 13.55 2 Mesh-Nodes
+13.55 - 15.45 2 Dokumentation
+16.15 - 18.30 2 Dokumentation
+
+30.04.2019
+07.25 - 07.50 2 Dokumentation
+08.00 - 08.55 2 Besprechungen / Sitzungen
+08.55 - 12.05 2 Tests
+12.25 - 13.55 2 Tests
+14.10 - 15.15 2 Dokumentation
+16.00 - 17.00 2 Tests
+17.00 - 18.00 2 Mesh-Nodes
+18.25 - 18.40 2 Dokumentation
+
+29.04.2019
+07.25 - 07.45 2 Dokumentation
+09.00 - 09.25 2 Dokumentation
+09.50 - 10.10 2 Low-Power
+10.20 - 11.10 2 Low-Power
+14.30 - 14.40 2 Dokumentation
+14.40 - 17.30 2 Tests
+21.40 - 22.15 2 Dokumentation
+
+28.04.2019
+18.10 - 18.20 2 Mesh-Nodes
+20.45 - 21.45 2 Dokumentation
+
+26.04.2019
+08.25 - 08.50 2 Dokumentation
+09.05 - 09.50 2 Dokumentation
+13.00 - 13.30 2 Besprechungen / Sitzungen
+13.40 - 13.40 2 Dokumentation
+16.10 - 16.40 1 Mesh-Nodes
+16.40 - 18.00 2 Mesh-Nodes
+18.00 - 18.15 2 Dokumentation
+18.30 - 18.55 2 Dokumentation
+
+25.04.2019
+07.25 - 07.45 2 Dokumentation
+08.00 - 10.20 2 Low-Power
+10.20 - 11.25 3 Mesh-Nodes
+12.30 - 12.45 2 Dokumentation
+13.10 - 13.15 3 Besprechungen / Sitzungen
+13.15 - 16.35 2 Mesh-Nodes
+17.20 - 18.00 2 Mesh-Nodes
+18.10 - 18.40 2 Dokumentation
+18.45 - 18.55 2 Dokumentation
+21.25 - 22.25 2 Dokumentation
+
+24.04.2019
+07.55 - 08.15 2 Dokumentation
+09.30 - 10.00 2 Besprechungen / Sitzungen
+10.00 - 11.10 2 Besprechungen / Sitzungen
+17.40 - 18.05 2 Dokumentation
+
+23.04.2019
+07.30 - 07.50 3 Dokumentation
+08.00 - 11.30 2 Low-Power
+14.00 - 14.45 2 Dokumentation
+16.00 - 18.30 2 Low-Power
+18.40 - 19.05 2 Low-Power
+20.20 - 22.00 3 Low-Power
+22.00 - 23.00 3 Low-Power
+
+22.04.2019
+08.00 - 08.30 2 Mesh-Nodes
+08.30 - 09.00 2 Besprechungen / Sitzungen
+09.00 - 12.20 2 Mesh-Nodes
+13.00 - 15.00 2 Mesh-Nodes
+15.00 - 15.30 2 Besprechungen / Sitzungen
+15.30 - 16.00 2 Mesh-Nodes
+16.00 - 17.30 2 Mesh-Nodes
+17.40 - 18.05 2 Low-Power
+
+21.04.2019
+14.35 - 15.15 2 Low-Power
+17.15 - 17.45 2 Low-Power
+19.10 - 20.35 2 Low-Power
+
+20.04.2019
+09.30 - 11.00 2 Mesh-Nodes
+11.15 - 12.10 2 Mesh-Nodes
+12.15 - 13.00 2 Low-Power
+13.55 - 16.10 3 Low-Power
+
+18.04.2019
+08.10 - 08.30 2 Low-Power
+09.35 - 10.10 2 Besprechungen / Sitzungen
+10.10 - 11.00 2 Low-Power
+14.25 - 15.35 2 Low-Power
+15.35 - 15.55 2 Mesh-Nodes
+15.55 - 16.20 3 KNX
+16.20 - 17.20 2 KNX
+
+17.04.2019
+08.10 - 09.30 2 Mesh-Nodes
+09.50 - 11.20 2 Mesh-Nodes
+14.10 - 14.45 2 Low-Power
+
+16.04.2019
+13.15 - 13.35 2 Mesh-Nodes
+15.45 - 17.30 2 Mesh-Nodes
+
+11.04.2019
+08.10 - 08.40 2 Mesh-Nodes
+09.55 - 11.10 2 Mesh-Nodes
+11.10 - 11.30 2 Mesh-Nodes
+
+10.04.2019
+08.15 - 10.00 2 Mesh-Nodes
+10.00 - 11.10 2 Besprechungen / Sitzungen
+
+09.04.2019
+08.00 - 11.40 2 Mesh-Nodes
+
+08.04.2019
+09.40 - 11.50 2 Mesh-Nodes
+13.50 - 15.30 2 Mesh-Nodes
+15.45 - 17.30 2 Mesh-Nodes
+
+05.04.2019
+09.10 - 10.00 2 Mesh-Nodes
+12.40 - 12.50 2 Mesh-Nodes
+
+04.04.2019
+07.30 - 11.50 2 Mesh-Nodes
+13.20 - 15.45 2 Divers
+15.50 - 16.30 1 Mesh-Nodes
+
+03.04.2019
+08.00 - 09.55 2 Mesh-Nodes
+10.00 - 11.15 2 Besprechungen / Sitzungen
+14.00 - 17.00 2 Mesh-Nodes
+
+02.04.2019
+08.00 - 11.25 3 Mesh-Nodes
+12.00 - 13.55 2 Mesh-Nodes
+15.45 - 17.00 2 Dokumentation
+
+01.04.2019
+09.55 - 10.05 2 Besprechungen / Sitzungen
+10.05 - 11.55 2 Dokumentation
+13.25 - 15.50 2 Dokumentation
+16.50 - 17.05 2 Dokumentation
+
+31.03.2019
+18.30 - 18.45 2 Tests
+19.15 - 19.30 3 Tests
+20.00 - 21.30 3 Mesh-Nodes
+
+30.03.2019
+10.40 - 11.00 2 Dokumentation
+11.00 - 12.15 2 Mesh-Nodes
+13.40 - 15.30 3 Tests
+
+29.03.2019
+09.00 - 09.50 2 Mesh-Nodes
+09.50 - 10.00 2 Mesh-Nodes
+18.00 - 18.30 2 Mesh-Nodes
+
+28.03.2019
+08.15 - 09.00 2 Mesh-Nodes
+09.00 - 11.00 2 Besprechungen / Sitzungen
+11.00 - 11.25 2 Mesh-Nodes
+14.15 - 14.45 2 Mesh-Nodes
+14.45 - 15.15 2 Besprechungen / Sitzungen
+15.15 - 16.50 2 KNX
+
+27.03.2019
+08.00 - 09.00 2 Besprechungen / Sitzungen
+09.00 - 10.00 2 Mesh-Nodes
+10.00 - 10.45 2 Besprechungen / Sitzungen
+10.45 - 10.55 2 Mesh-Nodes
+
+26.03.2019
+08.30 - 09.50 1 Mesh-Nodes
+09.50 - 10.20 2 KNX
+10.20 - 11.20 2 Mesh-Nodes
+16.40 - 18.30 2 Mesh-Nodes
+
+25.03.2019
+10.00 - 10.30 2 Mesh-Nodes
+10.30 - 10.50 2 Besprechungen / Sitzungen
+10.50 - 11.20 2 Mesh-Nodes
+14.00 - 17.50 2 Mesh-Nodes
+
+24.03.2019
+17.30 - 17.40 2 Mesh-Nodes
+19.30 - 20.30 1 Mesh-Nodes
+
+23.03.2019
+09.35 - 11.00 2 Mesh-Nodes
+13.25 - 13.50 2 Mesh-Nodes
+
+22.03.2019
+08.30 - 10.00 3 Mesh-Nodes
+13.15 - 17.35 2 Mesh-Nodes
+
+21.03.2019
+08.05 - 08.30 2 Divers
+08.30 - 09.50 2 Mesh-Nodes
+10.15 - 11.30 2 Mesh-Nodes
+13.15 - 14.30 2 KNX
+14.30 - 17.30 2 Mesh-Nodes
+
+20.03.2019
+08.10 - 09.10 2 Dokumentation
+09.10 - 10.00 2 Topologie
+10.00 - 11.00 2 Besprechungen / Sitzungen
+11.00 - 11.20 2 Dokumentation
+13.55 - 16.00 2 Mesh-Nodes
+16.00 - 17.00 2 Topologie
+17.00 - 17.30 1 Dokumentation
+
+19.03.2019
+08.05 - 08.45 2 Besprechungen / Sitzungen
+09.00 - 09.55 2 Dokumentation
+10.10 - 11.20 2 Dokumentation
+15.45 - 16.40 3 Dokumentation
+16.40 - 18.20 3 Topologie
+18.20 - 18.30 2 Dokumentation
+
+18.03.2019
+10.00 - 10.20 2 Besprechungen / Sitzungen
+13.00 - 13.30 2 Dokumentation
+14.15 - 18.30 2 KNX
+
+16.03.2019
+10.40 - 11.20 2 Dokumentation
+15.15 - 15.30 2 Dokumentation
+15.45 - 18.10 2 Dokumentation
+
+14.03.2019
+08.15 - 09.20 2 Mesh-Nodes
+09.20 - 11.55 2 Dokumentation
+12.00 - 12.30 2 Dokumentation
+13.35 - 17.30 2 Dokumentation
+
+13.03.2019
+08.40 - 10.00 2 Dokumentation
+10.00 - 11.00 2 Besprechungen / Sitzungen
+
+12.03.2019
+08.00 - 11.20 2 Divers
+16.00 - 16.30 2 Dokumentation
+16.30 - 17.00 2 Topologie
+17.00 - 18.30 2 Dokumentation
+
+11.03.2019
+09.45 - 11.05 2 Mesh-Nodes
+11.20 - 11.50 2 Mesh-Nodes
+14.00 - 14.40 2 Mesh-Nodes
+15.25 - 17.10 2 Mesh-Nodes
+20.00 - 20.15 2 Mesh-Nodes
+
+10.03.2019
+15.25 - 17.20 2 Mesh-Nodes
+
+08.03.2019
+13.20 - 13.35 2 Besprechungen / Sitzungen
+13.35 - 16.30 2 Mesh-Nodes
+
+07.03.2019
+09.00 - 10.00 2 Topologie
+10.00 - 11.00 3 Topologie
+09.00 - 11.25 2 Topologie
+13.50 - 14.30 2 Topologie
+14.30 - 15.20 2 Mesh-Nodes
+15.20 - 16.40 2 Mesh-Nodes
+16.40 - 17.20 2 Topologie
+17.20 - 18.05 2 Mesh-Nodes
+
+06.03.2019
+08.30 - 09.00 2 Low-Power
+09.00 - 09.30 2 Besprechungen / Sitzungen
+09.30 - 09.55 2 Topologie
+09.55 - 11.00 2 Besprechungen / Sitzungen
+14.00 - 16.00 3 Topologie
+16.00 - 17.35 2 Topologie
+
+05.03.2019
+08.25 - 11.00 2 Topologie
+15.50 - 17.30 2 Dokumentation
+
+04.03.2019
+09.50 - 11.25 2 Divers
+14.45 - 17.00 2 Topologie
+
+03.03.2019
+19.20 - 20.35 2 Dokumentation
+
+02.03.2019
+18.30 - 21.45 2 Divers
+
+26.02.2019
+08.20 - 10.00 1 Divers
+10.00 - 11.15 2 Divers
+16.20 - 16.40 2 Divers
+16.40 - 17.35 2 Mesh-Nodes
+
+25.02.2019
+10.00 - 10.30 2 Besprechungen / Sitzungen
+10.30 - 11.25 2 Divers
+15.30 - 16.00 2 Divers
+
+24.02.2019
+16.00 - 17.45 2 Low-Power
+
+23.02.2019
+10.15 - 11.15 2 Low-Power
+11.45 - 12.30 2 Divers
+13.15 - 15.00 2 Divers
+
+22.02.2019
+13.45 - 16.10 2 Mesh-Nodes
+16.10 - 17.00 2 Low-Power
+17.00 - 17.15 2 Besprechungen / Sitzungen
+
+21.02.2019
+08.05 - 12.00 2 Low-Power
+12.35 - 13.30 2 Divers
+13.30 - 14.15 2 Besprechungen / Sitzungen
+14.15 - 15.40 1 Divers
+15.40 - 16.30 2 Besprechungen / Sitzungen
+16.30 - 17.10 2 Besprechungen / Sitzungen
+17.10 - 17.30 2 Divers
+
+20.02.2019
+09.00 - 10.00 2 Besprechungen / Sitzungen
+10.40 - 11.25 2 Divers
+14.20 - 16.30 2 Divers
+16.30 - 17.00 2 Besprechungen / Sitzungen
+
+19.02.2019
+08.30 - 09.00 2 Divers
+09.00 - 09.15 2 Besprechungen / Sitzungen
+09.15 - 10.30 2 Divers
+10.30 - 11.30 2 Low-Power
+12.00 - 13.50 2 Low-Power
+15.45 - 18.15 2 Low-Power
+
+18.02.2019
+09.45 - 10.10 2 Besprechungen / Sitzungen
+10.10 - 11.30 2 Low-Power
+14.15 - 15.00 2 Divers
+15.00 - 15:45 2 Low-Power
+16.00 - 18.00 2 Divers
+
+17.02.2019
+13.40 - 14.05 2 Low-Power
+15.45 - 17.25 3 Low-Power
+17.40 - 18.45 3 Low-Power
+20.15 - 21.05 3 Low-Power
+
+15.02.2019
+11.45 - 13.20 2 Divers
+15.40 - 15.56 2 Low-Power
+
+14.02.2019
+08.30 - 12.05 2 Low-Power
+12.45 - 16.00 1 Low-Power
+16.10 - 17.30 2 Low-Power
+
+13.02.2019
+08.40 - 09.10 2 Divers
+09.00 - 10.00 3 Low-Power
+10.00 - 11.00 2 Low-Power
+11.00 - 11.30 1 Low-Power
+11.30 - 11.55 2 Low-Power
+12.40 - 16.30 2 Low-Power
+
+12.02.2019
+08.30 - 09.00 3 Divers
+09.00 - 09.50 2 Dokumentation
+09.50 - 10.00 2 Low-Power
+10.15 - 12.05 2 Low-Power
+12.30 - 14.50 2 Low-Power
+15.05 - 16.30 2 Low-Power
+16.30 - 17.45 2 Besprechungen / Sitzungen
+17.45 - 18.15 2 KNX
+18.15 - 18.30 2 Divers
+
+11.02.2019
+08.00 - 09.15 2 Besprechungen / Sitzungen
+09.15 - 12.10 2 Divers
+12.50 - 14.00 2 Divers
+14.00 - 14.40 2 Dokumentation
+14.40 - 16.55 2 Divers
